@@ -1,0 +1,470 @@
+    1  ifconfig
+    2  cd
+    3  ls
+    4  cd ダウンロード
+    5  ls
+    6  tar xzf eclipse-standard-kepler-SR1-linux-gtk.tar.gz 
+    7  ls
+    8  mv eclipse ..
+    9  cd
+   10  l
+   11  ls
+   12  mv eclipse eclipse_std_sts
+   13  cd eclipse_std_sts/
+   14  l
+   15  ls
+   16  ./eclipse 
+   17  env
+   18  env | grep JAVA
+   19  yum list installed java
+   20  yum list installed |grep java
+   21  which java
+   22  ls -l /usr/bin/java
+   23  cd /opt
+   24  ls
+   25  cd /share
+   26  cd
+   27  ls
+   28  mkdir tools
+   29  cd tools/
+   30  mv ~/ダウンロード/apache-maven-3.1.1 .
+   31  l
+   32  ls
+   33  ls /etc/alternatives/java
+   34  ls -l /etc/alternatives/java
+   35  ls /usr/java
+   36  java -version
+   37  which java
+   38  ls -l /usr/bin/java
+   39  cd /etc/alternatives/java
+   40  ls
+   41  cd /etc/alternatives/
+   42  ls
+   43  ls -l
+   44  cd /usr/lib/jvm
+   45  ls
+   46  ls -l
+   47  pushd /etc/alternatives/java_sdk_openjdk
+   48  ls
+   49  ls lib
+   50  pwd
+   51  cd
+   52  ls
+   53  ls -la
+   54  vi .bashrc
+   55  vi /etc/bashrc
+   56  which javac
+   57  javac -version
+   58  mysql
+   59  id
+   60  yum
+   61  python -v
+   62  python -h
+   63  python -V
+   64  which git
+   65  git --version
+   66  l
+   67  ls
+   68  mkdir test
+   69  cd test
+   70  l
+   71  alias l ls -CF
+   72  alias
+   73  alias l='ls -CF'
+   74  l
+   75  vi tame
+   76  git init
+   77  git status
+   78  git add tame
+   79  l
+   80  git status
+   81  git commit 
+   82  git log
+   83  gitk
+   84  ssh-keygen
+   85  ls ~/.ssh
+   86  ls -l ~/.ssh
+   87  cat ~/.ssh/id_rsa
+   88  cat ~/.ssh/id_rsa.pub
+   89  pushd ~/.ssh
+   90  l
+   91  vi
+   92  vim
+   93  vi config
+   94  mkdir github
+   95  l
+   96  rmdir github/
+   97  vi config
+   98  l
+   99  sudo yum search firefox
+  100  sudo -l
+  101  sudo yum search firefox
+  102  sudo yum update firefox
+  103  pwd
+  104  dirs
+  105  ls -l ~/test
+  106  cd .ssh
+  107  l
+  108  ls
+  109  cat id_rsa.pub 
+  110  cd
+  111  cd test
+  112  l
+  113  ls
+  114  cd tame
+  115  ls
+  116  cd
+  117  ls
+  118  cd test
+  119  ls
+  120  mkdir test1001
+  121  alias l="ls -CF"
+  122  alias ll="ls -l"
+  123  alias la="ls -CFa"
+  124  alias lla="ls -la"
+  125  lla
+  126  git status
+  127  rm -rf VM* vm*
+  128  l
+  129  rm -rf test1001/
+  130  touch README.md
+  131  cat tame
+  132  git add README.md
+  133  git status
+  134  git commit
+  135  git remote add origin https:github.com/nezumiland/test1001.git
+  136  git push -u origin master
+  137  ls -l ~/.ssh
+  138  chmod go-rw ~/.ssh/config 
+  139  ls -l ~/.ssh
+  140  git push -u origin master
+  141  nslookup
+  142  git remote add origin https://github.com/nezumiland/test1001.git
+  143  git remote change origin https://github.com/nezumiland/test1001.git
+  144  git remote rm origin 
+  145  git remote add origin https://github.com/nezumiland/test1001.git
+  146  git push -u origin master
+  147  git remote rm origin 
+  148  git remote add origin git@github.com:nezumiland/test1001.git
+  149  git push -u origin master
+  150  git pull
+  151  l
+  152  cat README.md 
+  153  git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+  154  git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+  155  ps
+  156  cd
+  157  la
+  158  cat .bash_profile 
+  159  export PATH="$HOME/.rbenv/bin:$PATH"
+  160  echo $PATH
+  161  rbenv init -
+  162  eval "$(rbenv init -)"
+  163  rbenv --version
+  164  rbenv install --list
+  165  rbenv install 2.1.2
+  166  rbenv versions
+  167  l
+  168  la
+  169  cd .rbenv
+  170  l
+  171  l versions
+  172  l
+  173  l versions/2.1.2/
+  174  l versions/2.1.2/bin/
+  175  cd
+  176  l
+  177  cd test
+  178  l
+  179  mkdir rbtest
+  180  cd rbtest
+  181  l
+  182  rbenv local 2.1.2
+  183  rbenv versions
+  184  cd ..
+  185  rbenv versions
+  186  cd rbtest
+  187  l
+  188  rbenv versions
+  189  rbenv version
+  190  la
+  191  cat .ruby-version 
+  192  nev
+  193  env
+  194  env|sort
+  195  gem list -l
+  196  cd ..
+  197  gem list -l
+  198  cd rbtest/
+  199  gem list -l
+  200  gem list -i
+  201  gem list -r
+  202  gem list capi -r
+  203  gem list -l -d
+  204  la
+  205  cat .ruby-version 
+  206  dirs
+  207  pushd ~/.rbenv
+  208  l
+  209  cd versions/
+  210  l
+  211  mv 2.1.2 2.1.2capi
+  212  pushd
+  213  vi .ruby-version 
+  214  rbenv versions
+  215  rbenv which ruby
+  216  which ruby
+  217  ls -l ~/.rbenv/shims/
+  218  more ~/.rbenv/shims/ruby
+  219  gem list -l
+  220  l
+  221  la
+  222  vi .ruby-version 
+  223  pushd
+  224  la
+  225  mv 2.1.2capi/ 2.1.2
+  226  la
+  227  pushd
+  228  l
+  229  la
+  230  gem list -l
+  231  gem install capistrano
+  232  pushd
+  233  cd 2.1.2/
+  234  l
+  235  l lib
+  236  l lib/pkgconfig/
+  237  l lib/ruby/
+  238  l lib/ruby/gems/
+  239  l lib/ruby/gems/2.1.0/
+  240  l lib/ruby/gems/2.1.0/gems/
+  241  pushd
+  242  l
+  243  mkdir ap1
+  244  cd ap1
+  245  cap install
+  246  rehash
+  247  rbenv rehash
+  248  cap install
+  249  l
+  250  vi Capfile
+  251  cd ..
+  252  l
+  253  gem install capistrano-rbenv
+  254  rbenv rehash
+  255  cd ap1
+  256  l
+  257  cap install
+  258  vi Capfile 
+  259  l
+  260  cat lib
+  261  l lib
+  262  l lib/capistrano/
+  263  l lib/capistrano/tasks/
+  264  la lib/capistrano/tasks/
+  265  la lib/capistrano/
+  266  l
+  267  l config
+  268  vi Capfile 
+  269  l
+  270  cd config/
+  271  l
+  272  l deploy
+  273  vi deploy.rb 
+  274  cd deploy
+  275  l
+  276  vi production.rb 
+  277  ssh localhost
+  278  l
+  279  ..
+  280  cd ..
+  281  l
+  282  cat deploy.rb 
+  283  vi deploy.rb 
+  284  l
+  285  pwd
+  286  ..
+  287  cd ..
+  288  l
+  289  history
+  290  pwd
+  291  cd
+  292  l
+  293  cd test
+  294  l
+  295  mkdir capac
+  296  pwd
+  297  l
+  298  cd rbtest/
+  299  l
+  300  cd ap1
+  301  l
+  302  vi nankanofile
+  303  cap -T
+  304  cap deploy:check
+  305  cap production deploy:check
+  306  ssh nezu@localhost pwd
+  307  ssh-agent bash
+  308  ps -efH
+  309  ps -efH | grep agent
+  310  ps -efH | grep gent
+  311  eval `ssh-agent`
+  312  ssh-add -l
+  313  ssh-add ~/.ssh/id_rsa
+  314  ssh-add -l
+  315  ps -efH 
+  316  ps -efH | grep -i agent
+  317  ssh -A localhost ps -efH
+  318  ssh -A localhost ssh -A localhost ps -efH
+  319  ssh -A localhost 
+  320  ps -efH | grep -i agent
+  321  ssh localhost pwd
+  322  cap deploy:check
+  323  cap production deploy:check
+  324  cap --help
+  325  cap production deploy:check
+  326  ssh nezu@localhost
+  327  gem list
+  328  cap production deploy:check
+  329  ls -l /home/nezu/.ssh/id_rsa.pub
+  330  chmod go-r /home/nezu/.ssh/id_rsa.pub
+  331  ls -l /home/nezu/.ssh/id_rsa.pub
+  332  cap production deploy:check
+  333  ssh nezu@localhost
+  334  dirs
+  335  cap production deploy:check
+  336  cap production deploy:check --trace
+  337  dirs
+  338  pushd ~/.ssh
+  339  ls
+  340  cat id_rsa.pub >authorized_keys
+  341  chmod 600 authorized_keys
+  342  vi authorized_keys 
+  343  ssh nezu@localhost pwd
+  344  popd
+  345  cap production deploy:check 
+  346  ls /tmp/ap1
+  347  more /tmp/ap1/git-ssh.sh 
+  348  cap production deploy:check 
+  349  ssh localhost4 hostname
+  350  ssh localhost hostname
+  351  cap production deploy:check 
+  352  cap deploy:check 
+  353  cap staging deploy:check 
+  354  cap -T
+  355  cap production deploy:starting
+  356  pwd
+  357  cd ..
+  358  la
+  359  gem install chef -v 11.10 --no-ri --no-rdoc
+  360  gem install knife-solo --no-ri --no-rdoc
+  361  gem install berkshelf
+  362  rbenv rehash
+  363  knife configure
+  364  knife solo init chef-repo
+  365  l
+  366  cd chef-repo/
+  367  l
+  368  gem update
+  369  history
+  370  l
+  371  cd ..
+  372  l
+  373  knife cookbook create hello
+  374  cd chef-repo/
+  375  cd cookbooks/
+  376  l
+  377  cd ../site-cookbooks/
+  378  l
+  379  cd ..
+  380  l
+  381  wdp
+  382  pwd
+  383  cd
+  384  l
+  385  find . -name '*hello*' -print
+  386  cd test/rbtest
+  387  l
+  388  cd cookbooks/
+  389  l
+  390  cd hello/
+  391  l
+  392  cd recipes/
+  393  l
+  394  cat default.rb 
+  395  vi default.rb 
+  396  chef-solo -o hello
+  397  l ~/.chef
+  398  chef-solo --help
+  399  l
+  400  dirs
+  401  pushd
+  402  cd ~/.chef
+  403  ls
+  404  l cache
+  405  ..
+  406  cd ..
+  407  l
+  408  cd .chef
+  409  l
+  410  vi knife.rb 
+  411  l
+  412  dirs
+  413  pushd
+  414  cd ../../..
+  415  l
+  416  cd chef-repo
+  417  l
+  418  history
+  419  l
+  420  knife cookbook create hello2 -o site-cookbooks/
+  421  tree site-cookbooks/
+  422  l site-cookbooks/
+  423  l site-cookbooks/hello2/
+  424  vi site-cookbooks/hello2/recipes/default.rb 
+  425  knife solo prepare nezu@localhost
+  426  ls
+  427  cd nodes
+  428  ls
+  429  vi localhost.json 
+  430  knife solo cook nezu@localhost
+  431  l
+  432  pwd
+  433  cd ..
+  434  ls
+  435  vi localhost.json
+  436  vi solo.rb
+  437  cat solo.rb 
+  438  pwd
+  439  cat solo.rb 
+  440  vi solo.rb
+  441  chef-solo -c ./solo.rb -j ./localhost.json 
+  442  cat /tmp/chef-solo/chef-stacktrace.out 
+  443  cat solo.rb
+  444  l
+  445  cat localhost.json 
+  446  vi localhost.json 
+  447  chef-solo -c ./solo.rb -j ./localhost.json 
+  448  l site-cookbooks/
+  449  cd site-cookbooks/
+  450  l
+  451  mv hello2/ ../cookbooks/
+  452  cd ..
+  453  chef-solo -c ./solo.rb -j ./localhost.json 
+  454  cat solo.rb
+  455  ls /home/nezu/test/rbtest/chef-rep/cookbooks
+  456  ls /home/nezu/test/rbtest/chef-rep
+  457  ls /home/nezu/test/rbtest
+  458  ls /home/nezu/test/rbtest/chef-repo/cookbooks
+  459  vi solo.rb 
+  460  chef-solo -c ./solo.rb -j ./localhost.json 
+  461  l
+  462  git init
+  463  git status
+  464  git add .
+  465  git commit -m "first commit"
+  466  la
+  467  la .git
+  468  la .git/objects/
+  469  l
+  470  history > zzz.history
